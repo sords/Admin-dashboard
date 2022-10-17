@@ -17,9 +17,35 @@ body {
 /* header  */
 header{
     border: 2px solid black;
+    padding: 10px;
+    background-color: #c7d2fe;
     grid-column: 2 / 4;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.search-box,.profile-container,.welcome-container,.button-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+header img{
+    height: 50px;
+}
+
+.search-box input{
+    width: 80%;
+    border-radius: 30px;
+}
+.profile-photo{
+    border: 1px solid black;
+    border-radius: 50px;
+}
 /* nav and sidebar  */
 .sidebar{
     border: 2px solid black;
