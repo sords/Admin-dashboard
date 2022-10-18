@@ -50,7 +50,7 @@ header img {
 }
 
 .profile-photo {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-radius: 50px;
 }
 
@@ -143,12 +143,14 @@ main {
 /* secondmain */
 .sidemain {
     display: grid;
-    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
 }
 
 /* announcment */
-
+.announce {
+    /* grid-row: 1 / 2; */
+}
 
 .announcecontent ,.trendcontent{
     background-color: navajowhite;
@@ -158,7 +160,7 @@ main {
 
 .announcement{
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .announcecontent .border {
@@ -169,33 +171,21 @@ main {
 
 .announcementheading,
 .trendingheading {
-    text-align: center;
+    /* text-align: center; */
+    /* padding-left: 10px; */
 }
 
-/* .announcement,.trendcontent{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
-
 /* trending */
+.trendingpage {
+    /* grid-row: 2 / 3; */
+}
 .trendcontent img {
     height: 45px;
 }
-/* .trend {
-    display: flex;
-    align-items: center;
-    /* justify-content: center;
-    gap: 10px;
-} */
+
 .trend{
-    gap: 10px;
-    padding: 20px;
+     gap: 10px;
+    /* padding: 20px; */
 }
 
 
-/* footer  */
-/* footer{
-    border: 2px solid black;
-    grid-column: 1 / 4;
-} */
